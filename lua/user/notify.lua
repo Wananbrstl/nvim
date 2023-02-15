@@ -11,3 +11,4 @@ nvim_notify.setup {
   background_colour = "#2E3440",
 }
 
+vim.notify = nvim_notify
