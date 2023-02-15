@@ -134,15 +134,15 @@ return packer.startup(function(use)
     })
 
     -- notify
-    use {
-      "rcarriga/nvim-notify",
-      event = "BufEnter",
-      config = function()
-        vim.defer_fn(function()
-          require("config.nvim-notify")
-        end, 2000)
-      end,
-    }
+    -- use {
+    --   "rcarriga/nvim-notify",
+    --   event = "BufEnter",
+    --   config = function()
+    --     vim.defer_fn(function()
+    --       require("config.nvim-notify")
+    --     end, 2000)
+    --   end,
+    -- }
 
     -- markdown preview
     use {"ellisonleao/glow.nvim"}
